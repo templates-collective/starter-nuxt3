@@ -1,4 +1,4 @@
-import { version } from '../../opuntia/package.json'
+import { version } from '../package.json'
 
 /**
  * The key of the application.
