@@ -1,0 +1,26 @@
+{
+  "app": {
+    "title": "Opuntia",
+    "description": "Vite + Vue 3 单页面应用启动模板，它很快。"
+  },
+  "page": {
+    "home": {
+      "title": "Opuntia",
+      "get-todo-list": "获取待办事项列表"
+    },
+    "about": {
+      "title": "关于",
+      "show-logo": "显示 Logo",
+      "hide-logo": "隐藏 Logo"
+    }
+  },
+  "button": {
+    "about": "关于",
+    "back": "返回",
+    "home": "首页",
+    "toggle-dark": "切换深色模式",
+    "toggle-locale": "切换语言"
+  },
+  "empty": "暂无内容",
+  "not-found": "未找到页面"
+}

@@ -1,0 +1,26 @@
+{
+  "app": {
+    "title": "Opuntia",
+    "description": "Vite + Vue 3 SPA starter template, it's fast."
+  },
+  "page": {
+    "home": {
+      "title": "Opuntia",
+      "get-todo-list": "Get Todo List"
+    },
+    "about": {
+      "title": "About",
+      "show-logo": "Show Logo",
+      "hide-logo": "Hide Logo"
+    }
+  },
+  "button": {
+    "about": "About",
+    "back": "Back",
+    "home": "Home",
+    "toggle-dark": "Toggle dark mode",
+    "toggle-locale": "Change languages"
+  },
+  "empty": "No content",
+  "not-found": "Page Not found"
+}

@@ -1,0 +1,35 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  --at-apply: bg-neutral-100 text-neutral-900;
+}
+
+html.dark {
+  color-scheme: dark;
+  --at-apply: bg-neutral-900 text-neutral-200;
+}
+
+a {
+  --at-apply: color-primary;
+}
+
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  --at-apply: bg-primary;
+  opacity: 0.75;
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
