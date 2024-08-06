@@ -1,4 +1,4 @@
-import { useTitle } from "@vueuse/core"
+import { useTitle } from '@vueuse/core'
 
 /**
  * Locale composable for vue-i18n.
