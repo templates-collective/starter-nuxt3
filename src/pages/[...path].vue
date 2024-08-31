@@ -1,14 +1,8 @@
-<route lang="json">
-  {
-    "name": "not-found-page",
-    "meta": {
-      "title": "404 Page",
-      "locale": "page.not-found.title"
-    }
-  }
-  </route>
-
 <script setup lang="ts">
+definePageMeta({
+  layout: 'default',
+})
+
 const { t } = useI18n()
 
 const router = useRouter()

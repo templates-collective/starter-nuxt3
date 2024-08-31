@@ -1,4 +1,8 @@
 <script lang="ts" setup>
+definePageMeta({
+  layout: 'page',
+})
+
 const route = useRoute()
 
 const { t } = useI18n()

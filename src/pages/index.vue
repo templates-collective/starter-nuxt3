@@ -1,6 +1,10 @@
 <script lang="ts" setup>
 import type { TodoList } from '@/apis/todo'
 
+definePageMeta({
+  layout: 'page',
+})
+
 const route = useRoute()
 
 const { t } = useI18n()

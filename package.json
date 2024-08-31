@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@8.15.8",
-  "description": "Nuxt 3 SSR starter template, supports I18n, Axios, UnoCSS, and provides better SEO.",
+  "description": "Nuxt 3 Starter Template, supports I18n, Axios, UnoCSS, and provides better SEO.",
   "author": "Kieran Wong <kieranwong9865@gmail.com> (https://github.com/kieranwong9865/)",
   "license": "MIT",
   "engines": {
