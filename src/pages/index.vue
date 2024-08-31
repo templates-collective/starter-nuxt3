@@ -32,10 +32,10 @@ function fetchData() {
   <div flex justify-center items-center my-5>
     <TheButton lh-4 @click="fetchData">
       <img v-show="loading" mr-2 src="@/assets/loading.svg">
-      {{ t('page.home.get-todo-list') }}
+      {{ t('page.index.get-todo-list') }}
     </TheButton>
   </div>
-  <ul v-if="todoList.length > 0" my-5 h-50 overflow-y-auto>
+  <ul v-if="todoList && todoList.length > 0" my-5 h-50 overflow-y-auto>
     <li v-for="item in todoList" :key="item.id" text-base lh-normal>
       <input type="checkbox" accent-primary>
       {{ item.title }}
@@ -45,4 +45,3 @@ function fetchData() {
     {{ emptyText }}
   </p>
 </template>
-~/src/apis/todo

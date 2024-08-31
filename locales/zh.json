@@ -1,11 +1,11 @@
 {
   "app": {
-    "title": "Opuntia",
-    "description": "Vite + Vue 3 单页面应用启动模板，它很快。"
+    "title": "Nuxt 3 SSR Starter Template",
+    "description": "Nuxt 3 服务端渲染应用的初始化模板，支持国际化、Axios、UnoCSS，同时提供更好的 SEO。"
   },
   "page": {
     "home": {
-      "title": "Opuntia",
+      "title": "Nuxt 3 SSR Starter Template",
       "get-todo-list": "获取待办事项列表"
     },
     "about": {

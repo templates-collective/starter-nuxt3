@@ -1,4 +1,4 @@
-# Nuxt 3 Starter Template
+# Nuxt 3 SSR Starter Template
 
 [![Version](https://img.shields.io/github/v/release/templates-collective/starter-nuxt3?style=flat&label=%20&color=%230d0d0d)](https://github.com/templates-collective/starter-nuxt3/releases)
 

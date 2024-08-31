@@ -2,7 +2,7 @@ export default defineNuxtConfig({
   srcDir: 'src/',
   devtools: { enabled: true },
   devServer: {
-    port: 1977,
+    port: 9865,
   },
   modules: ['@pinia/nuxt', '@nuxtjs/i18n', '@vueuse/nuxt', '@unocss/nuxt', 'nuxt-lodash'],
   imports: {
