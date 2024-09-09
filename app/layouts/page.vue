@@ -51,7 +51,7 @@ function openGithub() {
       </p>
     </header>
     <main m-auto border-2 border-dashed border-color-stone-500 rd-1.5 p-5 min-h-32 max-w-xs sm:max-w-2xl>
-      <RouterView />
+      <slot />
     </main>
     <footer mt-10 py-10 text-center op-75>
       <a :href="LICENSE_URL" target="_blank">MIT License</a> © {{ new Date().getFullYear() }} <a
