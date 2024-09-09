@@ -1,5 +1,8 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-09-09',
+  future: {
+    compatibilityVersion: 4,
+  },
   devtools: {
     enabled: true,
   },
@@ -13,6 +16,12 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     'nuxt-lodash',
   ],
+  imports: {
+    dirs: [
+      'constants',
+      'stores',
+    ],
+  },
   css: [
     '@unocss/reset/tailwind.css',
   ],
@@ -20,7 +29,6 @@ export default defineNuxtConfig({
   // I18n config.
   // https://i18n.nuxtjs.org/
   i18n: {
-    lazy: true,
     defaultLocale: 'en',
     langDir: 'locales',
     locales: [

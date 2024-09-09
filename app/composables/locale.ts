@@ -11,8 +11,7 @@ export function useLocale() {
       const locales = Object.keys(messages.value)
       _locale = locales[(locales.indexOf(locale.value) + 1) % locales.length]
     }
-
-    locale.value = _locale
+    locale.value = _locale as string
   }
 
   const title = useTitle()
