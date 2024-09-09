@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@unocss/nuxt',
     'nuxt-lodash',
+    '@nuxt/test-utils/module',
   ],
   imports: {
     dirs: [
@@ -40,11 +41,5 @@ export default defineNuxtConfig({
   // Vite config.
   // https://vitejs.dev/config/
   vite: {
-    // Vitest config.
-    // https://github.com/vitest-dev/vitest
-    test: {
-      include: ['tests/**/*'],
-      environment: 'jsdom',
-    },
   },
 })

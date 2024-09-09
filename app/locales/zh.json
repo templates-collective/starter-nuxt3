@@ -1,7 +1,7 @@
 {
   "app": {
     "title": "Vite + Vue 3 Starter Template",
-    "description": "Vite + Vue 3 单页面应用初始化模板, 支持国际化、Axios、UnoCSS、文件路由和自动化的 API 导入。"
+    "description": "Nuxt 3 服务端渲染 & 全栈应用的初始化模板，支持国际化、UnoCSS、Prisma、MySQL，同时提供更好的 SEO。"
   },
   "page": {
     "index": {

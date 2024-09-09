@@ -1,6 +1,6 @@
-import TheButton from '@/components/TheButton.vue'
 import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
+import TheButton from '../app/components/TheButton.vue'
 
 const text = 'Button'
 
