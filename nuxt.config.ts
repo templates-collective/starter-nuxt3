@@ -13,20 +13,20 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     'nuxt-lodash',
   ],
-  imports: {
-    dirs: [
-      'stores',
-      'apis',
-      'constants',
-    ],
-  },
+  css: [
+    '@unocss/reset/tailwind.css',
+  ],
+
+  // I18n config.
+  // https://i18n.nuxtjs.org/
   i18n: {
+    lazy: true,
     defaultLocale: 'en',
+    langDir: 'locales',
     locales: [
-      'en',
-      'zh',
+      { code: 'en', file: 'en.json', name: 'English' },
+      { code: 'zh', file: 'zh.json', name: '中文' },
     ],
-    vueI18n: './vue-i18n.config.ts',
   },
 
   // Vite config.

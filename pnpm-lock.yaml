@@ -41,9 +41,6 @@ dependencies:
   vue:
     specifier: ^3.5.3
     version: 3.5.3(typescript@5.5.4)
-  vue-i18n:
-    specifier: ^9.14.0
-    version: 9.14.0(vue@3.5.3)
 
 devDependencies:
   '@antfu/eslint-config':
