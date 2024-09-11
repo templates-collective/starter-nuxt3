@@ -9,15 +9,15 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "simple-git-hooks",
-    "postinstall": "nuxt prepare",
-    "dev": "nuxt dev --host",
-    "build": "nuxt build",
-    "preview": "nuxt preview",
-    "generate": "nuxt generate",
+    "postinstall": "nuxi prepare",
+    "dev": "nuxi dev --host --dotenv .env.development",
+    "build": "nuxi build",
+    "preview": "nuxi preview",
+    "generate": "nuxi generate",
     "test": "vitest",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "type-check": "vue-tsc --noEmit",
+    "typecheck": "nuxi typecheck",
     "clean": "rimraf .output",
     "release": "bumpp"
   },
@@ -48,8 +48,7 @@
     "rimraf": "^6.0.1",
     "simple-git-hooks": "^2.11.1",
     "typescript": "^5.5.4",
-    "vitest": "^2.0.5",
-    "vue-tsc": "^2.1.6"
+    "vitest": "^2.0.5"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"

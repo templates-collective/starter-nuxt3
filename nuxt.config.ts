@@ -59,4 +59,9 @@ export default defineNuxtConfig({
   // https://vitejs.dev/config/
   vite: {
   },
+
+  // Runtime config.
+  // https://nuxt.com/docs/api/nuxt-config#runtimeconfig-1
+  runtimeConfig: {
+  },
 })
