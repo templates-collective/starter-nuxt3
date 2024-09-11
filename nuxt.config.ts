@@ -1,4 +1,19 @@
 export default defineNuxtConfig({
+  app: {
+    head: {
+      title: 'Nuxt 3 Starter Template',
+      viewport: 'width=device-width,initial-scale=1',
+      link: [
+        { rel: 'icon', href: '/favicon.svg', sizes: 'any' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' },
+      ],
+      meta: [
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'description', content: 'Nuxt 3 SSR & full-stack starter template, supports I18n, UnoCSS, Prisma, MySQL and provides better SEO.' },
+      ],
+    },
+  },
+
   // Specify a compatibility date for your app.
   compatibilityDate: '2024-09-09',
 
@@ -11,6 +26,15 @@ export default defineNuxtConfig({
   // Open devtools by default.
   devtools: {
     enabled: true,
+  },
+
+  // Runtime config.
+  // https://nuxt.com/docs/api/nuxt-config#runtimeconfig-1
+  runtimeConfig: {
+    app: {
+    },
+    public: {
+    },
   },
 
   // Server config.
@@ -53,15 +77,5 @@ export default defineNuxtConfig({
       { code: 'en', file: 'en.json', name: 'English' },
       { code: 'zh', file: 'zh.json', name: '中文' },
     ],
-  },
-
-  // Vite config.
-  // https://vitejs.dev/config/
-  vite: {
-  },
-
-  // Runtime config.
-  // https://nuxt.com/docs/api/nuxt-config#runtimeconfig-1
-  runtimeConfig: {
   },
 })

@@ -7,6 +7,10 @@ const route = useRoute()
 
 const { t } = useI18n()
 
+useHead({
+  title: t('page.about.title'),
+})
+
 const { headerLogo } = storeToRefs(useLayoutStore())
 
 const { toggleLogo } = useLayoutStore()
