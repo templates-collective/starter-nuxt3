@@ -1,5 +1,7 @@
 export default defineNuxtConfig({
   app: {
+    // SEO config.
+    // https://nuxt.com/docs/api/nuxt-config#head
     head: {
       title: 'Nuxt 3 Starter Template',
       viewport: 'width=device-width,initial-scale=1',
@@ -22,6 +24,10 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+
+  // Enable server-side rendering.
+  // If you want to use SPA mode, set ssr to false, it will be built to .output/public directory.
+  ssr: true,
 
   // Open devtools by default.
   devtools: {
