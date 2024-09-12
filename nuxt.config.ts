@@ -34,6 +34,11 @@ export default defineNuxtConfig({
     enabled: true,
   },
 
+  // Server config.
+  devServer: {
+    port: 9865,
+  },
+
   // Runtime config.
   // https://nuxt.com/docs/api/nuxt-config#runtimeconfig-1
   runtimeConfig: {
@@ -41,11 +46,6 @@ export default defineNuxtConfig({
     },
     public: {
     },
-  },
-
-  // Server config.
-  devServer: {
-    port: 9865,
   },
 
   // Register nuxt modules.
