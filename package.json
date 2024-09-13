@@ -16,7 +16,6 @@
     "dev": "nuxi dev --host --dotenv .env.development",
     "build": "nuxi build --dotenv .env.production",
     "preview": "nuxi preview",
-    "generate": "nuxi generate",
     "test": "vitest",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
