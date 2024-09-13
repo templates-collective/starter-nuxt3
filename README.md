@@ -71,8 +71,7 @@ pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 
 When you use this template, try follow the checklist to update your info properly:
 
-- [ ] Change the author name in `LICENSE`.
-- [ ] Change the title in `locales/*.json` and `VITE_APP_NAME` env.
+- [ ] Change the app title in `app/locales/*.json` and `nuxt.config.ts`.
 - [ ] Change the favicon in `public` and remove preview image.
 
 ## License
