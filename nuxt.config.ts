@@ -83,5 +83,6 @@ export default defineNuxtConfig({
       { code: 'en', file: 'en.json', name: 'English' },
       { code: 'zh', file: 'zh.json', name: '中文' },
     ],
+    vueI18n: './i18n.config.ts',
   },
 })
