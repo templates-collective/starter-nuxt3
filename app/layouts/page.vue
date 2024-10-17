@@ -57,7 +57,7 @@ function openGithub() {
     </main>
     <footer mt-10 py-10 text-center op-75>
       <a :href="LICENSE_URL" target="_blank">MIT License</a> © {{ new Date().getFullYear() }} <a
-        href="https://github.com/kieranwong9865" target="_blank"
+        href="https://github.com/kieranwv" target="_blank"
       >Kieran Wong</a>
     </footer>
   </main>
