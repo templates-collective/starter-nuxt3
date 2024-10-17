@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 definePageMeta({
+  name: 'About',
   layout: 'page',
 })
 

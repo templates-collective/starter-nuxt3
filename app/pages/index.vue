@@ -1,11 +1,16 @@
 <script lang="ts" setup>
 definePageMeta({
+  name: 'Index',
   layout: 'page',
 })
 
 const route = useRoute()
 
 const { t } = useI18n()
+
+useHead({
+  title: t('page.index.title'),
+})
 
 const todoList = ref<any[]>([])
 
